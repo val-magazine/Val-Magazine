@@ -3,7 +3,7 @@ let carrinho = [];
 // Carregar produtos
 async function carregarProdutos() {
   try {
-    const response = await fetch('produtos.json'); // nome corrigido
+    const response = await fetch('produtos.json');
     const produtos = await response.json();
     exibirProdutos(produtos);
     configurarBusca(produtos);
@@ -28,16 +28,21 @@ function exibirProdutos(produtos) {
     const card = document.createElement('div');
     card.className = 'product-card';
     card.innerHTML = `
-      <img src="${produto.imagem}" alt="${produto.nome}">
+      <img src="${produto.imagem}" alt="${produto.nome}" class="clickable-img">
       <h3>${produto.nome}</h3>
       <p>R$ ${produto.preco.toFixed(2)}</p>
       <button onclick="adicionarAoCarrinho('${produto.nome}', ${produto.preco})">Adicionar</button>
     `;
     lista.appendChild(card);
+
+    // Clique na imagem abre modal
+    card.querySelector('.clickable-img').addEventListener('click', () => {
+      abrirModalProduto(produto);
+    });
   });
 }
 
-// Adicionar no carrinho
+// Adicionar ao carrinho
 function adicionarAoCarrinho(nome, preco) {
   carrinho.push({ nome, preco });
   document.getElementById('cart-count').textContent = carrinho.length;
@@ -70,7 +75,7 @@ function atualizarCarrinho() {
   document.getElementById('cart-total').textContent = total.toFixed(2);
 }
 
-// Finalizar no WhatsApp
+// Checkout WhatsApp do carrinho
 document.getElementById('checkout-btn').onclick = () => {
   if (carrinho.length === 0) return alert("Seu carrinho está vazio!");
 
@@ -84,12 +89,12 @@ document.getElementById('checkout-btn').onclick = () => {
 
   mensagem += `\nTotal: R$ ${total.toFixed(2)}`;
 
-  const numero = "5577981543503"; // seu número WhatsApp
+  const numero = "5577981543503"; 
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
   window.open(url, "_blank");
 };
 
-// Pesquisa
+// Busca
 function configurarBusca(produtos) {
   document.getElementById('search').addEventListener('input', e => {
     const termo = e.target.value.toLowerCase();
@@ -98,7 +103,7 @@ function configurarBusca(produtos) {
   });
 }
 
-// Filtro por categoria
+// Categorias
 function configurarCategorias(produtos) {
   document.querySelectorAll('.category').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -114,5 +119,45 @@ function configurarCategorias(produtos) {
     });
   });
 }
+
+// Modal Produto Aprimorado
+const productModal = document.getElementById('product-modal');
+const modalImg = document.getElementById('modal-img');
+const modalName = document.getElementById('modal-name');
+const modalPrice = document.getElementById('modal-price');
+const modalBuyBtn = document.getElementById('modal-buy-btn');
+const modalAddCart = document.getElementById('modal-add-cart');
+
+document.getElementById('close-product-modal').onclick = () => {
+  productModal.style.display = 'none';
+};
+
+function abrirModalProduto(produto) {
+  modalImg.src = produto.imagem;
+  modalName.textContent = produto.nome;
+  modalPrice.textContent = `R$ ${produto.preco.toFixed(2)}`;
+
+  // Botão Comprar WhatsApp
+  modalBuyBtn.onclick = () => {
+    const numero = "5577981543503";
+    const mensagem = `Olá, gostaria de comprar: ${produto.nome} por R$ ${produto.preco.toFixed(2)}`;
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+    window.open(url, "_blank");
+  };
+
+  // Botão Adicionar ao Carrinho
+  modalAddCart.onclick = () => {
+    adicionarAoCarrinho(produto.nome, produto.preco);
+    alert(`${produto.nome} adicionado ao carrinho!`);
+    productModal.style.display = 'none';
+  };
+
+  productModal.style.display = 'flex';
+}
+
+// Fechar modal clicando fora
+window.addEventListener('click', e => {
+  if (e.target === productModal) productModal.style.display = 'none';
+});
 
 carregarProdutos();
