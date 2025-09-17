@@ -1,0 +1,44 @@
+[
+  {
+    "nome": "Bolsa c/ Corrente Dourada",
+    "preco": 55.90,
+    "imagem": "bolsacorrentedourada.jpg",
+    "categoria": "bolsas"
+  },
+  {
+    "nome": "Fone Bluetooth",
+    "preco": 80.00,
+    "imagem": "imagens/relogio.curren.jpg.jpeg",
+    "categoria": "eletronicos"
+  },
+  {
+    "nome": "Carrinho Police Security Nova Toys",
+    "preco": 38.50,
+    "imagem": "carrinhopolicia.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Kit Sensual",
+    "preco": 99.90,
+    "imagem": "imagens/hot1.jpg",
+    "categoria": "hot"
+  },
+  {
+    "nome": "Kit Dia dos Pais",
+    "preco": 116.90,
+    "imagem": "imagens/cesta1.jpg",
+    "categoria": "cestas"
+  },
+  {
+    "nome": "Relógio Curren",
+    "preco": 70.00,
+    "imagem": "relogio.curren.jpg.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Maleta Dentista Dentinho Feliz",
+    "preco": 28.00,
+    "imagem": "maletadentista.jpeg",
+    "categoria": "brinquedos"
+  }
+]
