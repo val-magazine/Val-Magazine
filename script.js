@@ -67,12 +67,24 @@ function atualizarCarrinho() {
   container.innerHTML = '';
   let total = 0;
 
-  carrinho.forEach(item => {
-    container.innerHTML += `<p>${item.nome} - R$ ${item.preco.toFixed(2)}</p>`;
+  carrinho.forEach((item, index) => {
+    container.innerHTML += `
+      <p>
+        ${item.nome} - R$ ${item.preco.toFixed(2)}
+        <button onclick="removerDoCarrinho(${index})">❌</button>
+      </p>
+    `;
     total += item.preco;
   });
 
   document.getElementById('cart-total').textContent = total.toFixed(2);
+}
+
+// Remover item do carrinho
+function removerDoCarrinho(index) {
+  carrinho.splice(index, 1);
+  document.getElementById('cart-count').textContent = carrinho.length;
+  atualizarCarrinho();
 }
 
 // Checkout WhatsApp do carrinho
