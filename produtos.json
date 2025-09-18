@@ -40,6 +40,14 @@
     "preco": 28.00,
     "imagem": "maletadentista.jpeg",
     "categoria": "brinquedos"
-  }
+  },
+   {
+    "nome": "Kit Natura TodoDia",
+    "preco": 184.90,
+    "imagem": "kitnaturatd.jpeg",
+    "categoria": "cestas"
+   },
 ]
+
+
 
