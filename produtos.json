@@ -6,10 +6,10 @@
     "categoria": "bolsas"
   },
   {
-    "nome": "Fone Bluetooth",
-    "preco": 80.00,
-    "imagem": "imagens/relogio.curren.jpg.jpeg",
-    "categoria": "eletronicos"
+    "nome": "Caneca Time (Vasco)",
+    "preco": 39.50,
+    "imagem": "canecavasco.jpeg",
+    "categoria": "canecas"
   },
   {
     "nome": "Carrinho Police Security Nova Toys",
@@ -48,6 +48,8 @@
     "categoria": "cestas"
    },
 ]
+
+
 
 
 
