@@ -47,38 +47,46 @@
     "imagem": "kitnaturatd.jpeg",
     "categoria": "natura"
   },
+  {
+    "nome": "Caneca Time (Flamengo)",
+    "preco": 39.50,
+    "imagem": "canecaflame.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Time (Corinthians)",
+    "preco": 39.50,
+    "imagem": "canecacorint.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Urso de Pelúcia Pequeno",
+    "preco": 38.90,
+    "imagem": "ursopeluciap.jpeg",
+    "categoria": "pelucias"
+  },
+  {
+    "nome": "Pelúcia Angel Stitch",
+    "preco": 68.90,
+    "imagem": "peluciastitchrs.jpeg",
+    "categoria": "pelucias"
+  },
+  {
+    "nome": "Copo Térmica Stanley",
+    "preco": 35.00,
+    "imagem": "copostanleyaz.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Copo Térmico para Café",
+    "preco": 35.00,
+    "imagem": "copotermicocf.jpeg",
+    "categoria": "utensilios"
+  },
 
-  { "nome": "Caneca Time (Flamengo)", "preco": 39.50, "imagem": "canecaflame.jpeg", "categoria": "canecas" },
-  { "nome": "Caneca Time (Corinthians)", "preco": 39.50, "imagem": "canecacorint.jpeg", "categoria": "canecas" },
-  { "nome": "Urso de Pelúcia Pequeno", "preco": 38.90, "imagem": "ursopeluciap.jpeg", "categoria": "pelucias" },
-  { "nome": "Pelúcia Angel Stitch ", "preco": 68.90, "imagem": "peluciastitchrs.jpeg", "categoria": "pelucias" },
-  { "nome": "Copo Térmica Stanley", "preco": 35.00, "imagem": "copostanleyaz.jpeg", "categoria": "utensilios" },
-  { "nome": "Copo Térmico para Café", "preco": 35.00, "imagem": "copotermicocf.jpeg", "categoria": "utensilios" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" }
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" }
 ]
-
-
-
