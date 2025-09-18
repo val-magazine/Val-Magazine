@@ -26,7 +26,7 @@
   {
     "nome": "Kit Dia dos Pais",
     "preco": 116.90,
-    "imagem": "imagens/cesta1.jpg",
+    "imagem": "cestapais.jpeg",
     "categoria": "cestas"
   },
   {
@@ -42,3 +42,4 @@
     "categoria": "brinquedos"
   }
 ]
+
