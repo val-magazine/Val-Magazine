@@ -41,15 +41,21 @@
     "imagem": "maletadentista.jpeg",
     "categoria": "brinquedos"
   },
-   {
+  {
     "nome": "Kit Natura TodoDia",
     "preco": 184.90,
     "imagem": "kitnaturatd.jpeg",
-    "categoria": "cestas"
-   },
+    "categoria": "natura"
+  },
+
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "eletronicos" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "pelucias" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "avatim" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "difusores" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "avon" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" }
 ]
-
-
-
-
-
