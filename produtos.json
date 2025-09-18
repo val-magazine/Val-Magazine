@@ -48,7 +48,7 @@
     "categoria": "natura"
   },
 
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "eletronicos" },
+  { "nome": "Caneca Time (Flamengo)", "preco": 39.50, "imagem": "canecaflame.jpeg", "categoria": "canecas" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "pelucias" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "avatim" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" },
@@ -59,3 +59,4 @@
   { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" }
 ]
+
