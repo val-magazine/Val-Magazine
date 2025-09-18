@@ -1,5 +1,14 @@
 let carrinho = [];
 
+// Função para normalizar (remove acentos, espaços extras e deixa minúsculo)
+function normalizarTexto(txt) {
+  return txt
+    .normalize("NFD") // separa acentos
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+    .toLowerCase()
+    .trim();
+}
+
 // Carregar produtos
 async function carregarProdutos() {
   try {
@@ -109,8 +118,8 @@ document.getElementById('checkout-btn').onclick = () => {
 // Busca
 function configurarBusca(produtos) {
   document.getElementById('search').addEventListener('input', e => {
-    const termo = e.target.value.toLowerCase();
-    const filtrados = produtos.filter(p => p.nome.toLowerCase().includes(termo));
+    const termo = normalizarTexto(e.target.value);
+    const filtrados = produtos.filter(p => normalizarTexto(p.nome).includes(termo));
     exibirProdutos(filtrados);
   });
 }
@@ -119,12 +128,12 @@ function configurarBusca(produtos) {
 function configurarCategorias(produtos) {
   document.querySelectorAll('.category').forEach(btn => {
     btn.addEventListener('click', () => {
-      const categoria = btn.dataset.category;
+      const categoria = normalizarTexto(btn.dataset.category);
       if (categoria === 'all') {
         exibirProdutos(produtos);
       } else {
         const filtrados = produtos.filter(
-          p => p.categoria.toLowerCase() === categoria.toLowerCase()
+          p => normalizarTexto(p.categoria) === categoria
         );
         exibirProdutos(filtrados);
       }
