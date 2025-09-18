@@ -96,8 +96,8 @@
     "categoria": "eletronicos"
   },
 
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "avatim" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "difusores" },
+  { "nome": "Caixinha de Som Bluetooth LivStar CNN-4114Sp", "preco": 140.00, "imagem": "caixasomlivstar.jpeg", "categoria": "eletronicos" },
+  { "nome": "Fone de Ouvido Bluetooth Pro 5s", "preco": 44.90, "imagem": "fonepro5s.jpeg", "categoria": "eletronicos" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "avon" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
@@ -105,3 +105,4 @@
   { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
 ]
+
