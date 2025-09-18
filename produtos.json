@@ -72,6 +72,12 @@
     "categoria": "pelucias"
   },
   {
+    "nome": "Pelúcia Coração FIZZY",
+    "preco": 45.90,
+    "imagem": "peluciacoracaofizz.jpeg",
+    "categoria": "pelucias"
+  },
+  {
     "nome": "Copo Térmica Stanley",
     "preco": 35.00,
     "imagem": "copostanleyaz.jpeg",
@@ -83,24 +89,19 @@
     "imagem": "copotermicocf.jpeg",
     "categoria": "utensilios"
   },
-  { "nome": "Pelúcia Coração FIZZY",
-    "preco": 45.90,
-    "imagem": "peluciacoracaofizz.jpeg",
-    "categoria": "pelucias" 
-  },
-  { "nome": "Caixinha de Som Bluetooth GP-359 Golden Pro",
+  {
+    "nome": "Caixinha de Som Bluetooth GP-359 Golden Pro",
     "preco": 129.90,
     "imagem": "caixasomgolden.jpeg",
-    "categoria": "eletronicos" 
+    "categoria": "eletronicos"
   },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" },
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
+
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "avatim" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "difusores" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "oboticario" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "avon" },
+  { "nome": "", "preco": 0, "imagem": "", "categoria": "eudora" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "maquiagem" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "outros" },
   { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
 ]
-
