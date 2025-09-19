@@ -32,7 +32,7 @@
   {
     "nome": "Relógio Curren",
     "preco": 70.00,
-    "imagem": "relogiocurren.jpeg",
+    "imagem": "relogiocurren.jpg.jpeg",
     "categoria": "acessorios"
   },
   {
@@ -312,3 +312,4 @@
     "categoria": "utensilios"
   }
 ]
+
