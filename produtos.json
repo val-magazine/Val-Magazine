@@ -195,13 +195,13 @@
     "nome": "Kit Lavabo Esférico Marrom",
     "preco": 102.90,
     "imagem": "lavabomarrom.jpeg",
-    "categoria": "casa-decoracao"
+    "categoria": "casa/decoracao"
   },
   {
     "nome": "Kit Lavabo Cinza",
     "preco": 89.90,
     "imagem": "lavabocinza.jpeg",
-    "categoria": "casa-decoracao"
+    "categoria": "casa/decoracao"
   },
   {
     "nome": "Conjunto Caneca Gratidão + Pires Coração",
@@ -312,6 +312,3 @@
     "categoria": "utensilios"
   }
 ]
-
-
-
