@@ -207,7 +207,7 @@
     "nome": "Conjunto Caneca Gratidão + Pires Coração",
     "preco": 35.90,
     "imagem": "canecagratidao.jpeg",
-    "categoria": "casa-decoracao"
+    "categoria": "casa/decoracao"
   },
   {
     "nome": "Difusor Umidificador Luminária OIH-6610",
@@ -312,5 +312,6 @@
     "categoria": "utensilios"
   }
 ]
+
 
 
