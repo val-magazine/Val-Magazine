@@ -32,7 +32,7 @@
   {
     "nome": "Relógio Curren",
     "preco": 70.00,
-    "imagem": "relogio.curren.jpg.jpeg",
+    "imagem": "relogiocurren.jpeg",
     "categoria": "acessorios"
   },
   {
@@ -95,57 +95,220 @@
     "imagem": "caixasomgolden.jpeg",
     "categoria": "eletronicos"
   },
-
-  { "nome": "Caixinha de Som Bluetooth LivStar CNN-4114Sp", "preco": 140.00, "imagem": "caixasomlivstar.jpeg", "categoria": "eletronicos" },
-  { "nome": "Fone de Ouvido Bluetooth Pro 5s", "preco": 44.90, "imagem": "fonepro5s.jpeg", "categoria": "eletronicos" },
-  { "nome": "Laço para Cabelo (Preto)", "preco": 18.90, "imagem": "lacopreto.jpeg", "categoria": "acessorios" },
-  { "nome": "Chaveiro Capivara", "preco": 13.90, "imagem": "chaveirocapi.jpeg", "categoria": "acessorios" },
-  { "nome": "Boné Blck Brasil", "preco": 31.50, "imagem": "boneclck.jpeg", "categoria": "acessorios" },
-  { "nome": "Boné New York", "preco": 31.50, "imagem": "bonenew.jpeg", "categoria": "acessorios" },
-  { "nome": "Touca Infantil", "preco": 24.00, "imagem": "toucainfant.jpeg", "categoria": "acessorios" },
-  { "nome": "Meia Masculina Cano Baixo", "preco": 10.00, "imagem": "meiacbmasc.jpeg", "categoria": "acessorios" }
-  { "nome": " Meia Masculina Cano Alto", "preco": 11.00, "imagem": "meiacamasc.jpeg", "categoria": "acessorios" }
-  { "nome": "Meia Feminina Cano Baixo", "preco": 10.00, "imagem": "meiafemcb.jpeg", "categoria": "acessorios" }
-  { "nome": "Meia Feminina Cano Alto", "preco": 11.00, "imagem": "meiafemca.jpeg", "categoria": "acessorios" }
-  { "nome": "Meia Infantil Feminina ", "preco": 10.00, "imagem": "meiafeminf.jpeg", "categoria": "acessorios" }
-  { "nome": "Meia Infantil Masculina", "preco": 10.00, "imagem": "meiamascinf.jpeg", "categoria": "acessorios" }
-  { "nome": "Perfume para Interiores (Flor de algodão) 200ml", "preco": 55.90, "imagem": "avatimalgodao.jpeg", "categoria": "avatim" }
-  { "nome": "Essência para Difusor (Avadore) 210ml", "preco": 68.50, "imagem": "essenciaavadore.jpeg", "categoria": "avatim" }
-  { "nome": "Essência Concentrada (Cascas e Folhas) 30ml", "preco": 47.50, "imagem": "essenciafolhas.jpeg", "categoria": "avatim" }
-  { "nome": "Kit Lavabo Esférico Marrom", "preco": 102.90, "imagem": "lavabomarrom.jpeg", "categoria": "casa-decoracao" }
-  { "nome": "Kit Lavabo Cinza", "preco": 89.90, "imagem": "lavabocinza.jpeg", "categoria": "casa-decoracao" }
-  { "nome": "Conjunto Caneca Gratidão + Pires Coração", "preco": 35.90, "imagem": "canecagratidao.jpeg", "categoria": "casa-decoracao" }
-  { "nome": "Difusor Umidificador Luminária OIH-6610", "preco": 119.90, "imagem": "difluminariaoih.jpeg", "categoria": "difusores" }
-  { "nome": "Difusor Elétrico Amadeirado OHEY DL-512", "preco": 84.90, "imagem": "difamadeirado.jpeg", "categoria": "difusores" }
-  { "nome": "Carrinho Bombeiro Nova Toys", "preco": 38.50, "imagem": "carrinhobomb.jpeg", "categoria": "brinquedos" }
-  { "nome": "Carrinho Monstro Faster", "preco": 26.50, "imagem": "carrinhomonstro.jpeg", "categoria": "brinquedos" }
-  { "nome": "Motinha de Trilha Mega Cross Kendy", "preco": 31.50, "imagem": "motinhatrilha.jpeg", "categoria": "brinquedos" }
-  { "nome": "Balde de Praia Kendy", "preco": 35.00, "imagem": "baldepraia.jpeg", "categoria": "brinquedos" }
-  { "nome": "Boneca Sereia Mermaid Dressup", "preco": 22.75, "imagem": "bonecasereia.jpeg", "categoria": "brinquedos" }
-  { "nome": "Carrinho Polícia ", "preco": 15.90, "imagem": "carrinhopol.jpeg", "categoria": "brinquedos" }
-  { "nome": "Bicicleta Bike Miniatura", "preco": 48.00, "imagem": "bikeminiatura.jpeg", "categoria": "brinquedos" }
-  { "nome": "Garrafa Motivação 2000ml", "preco": 17.00, "imagem": "garrafa2000ml.jpeg", "categoria": "utensilios" }
-  { "nome": "Garrafa Motivacional 900ml", "preco": 13.90, "imagem": "garrafa900ml.jpeg", "categoria": "utensilios" }
-  { "nome": "Garrafa Motivacional 300ml", "preco": 9.95, "imagem": "garrafa300ml.jpeg", "categoria": "utensilios" }
-  { "nome": "Garrafa Drink Up 500ml", "preco": 9.90, "imagem": "garrafa500ml.jpeg", "categoria": "utensilios" }
-  { "nome": "Copo Térmico Stanley (Verde)", "preco": 35.00, "imagem": "copostanleyverde.jpeg", "categoria": "utensilios" }
-  { "nome": "Copo Térmico Stanley (Preto)", "preco": 35.00, "imagem": "copostanleypreto.jpeg", "categoria": "utensilios" }
-  { "nome": "Copo Térmico Stanley (Rosa)", "preco": 35.00, "imagem": "copostanleyrosa.jpeg", "categoria": "utensilios" }
-  { "nome": "Copo Térmico Stanley c/ Tampa Para Cerveja (Rosa)", "preco": 42.00, "imagem": "copostanleytampa.jpeg", "categoria": "utensilios" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
-  { "nome": "", "preco": 0, "imagem": "", "categoria": "casa-decoracao" }
+  {
+    "nome": "Caixinha de Som Bluetooth LivStar CNN-4114Sp",
+    "preco": 140.00,
+    "imagem": "caixasomlivstar.jpeg",
+    "categoria": "eletronicos"
+  },
+  {
+    "nome": "Fone de Ouvido Bluetooth Pro 5s",
+    "preco": 44.90,
+    "imagem": "fonepro5s.jpeg",
+    "categoria": "eletronicos"
+  },
+  {
+    "nome": "Laço para Cabelo (Preto)",
+    "preco": 18.90,
+    "imagem": "lacopreto.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Chaveiro Capivara",
+    "preco": 13.90,
+    "imagem": "chaveirocapi.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Boné Blck Brasil",
+    "preco": 31.50,
+    "imagem": "boneclck.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Boné New York",
+    "preco": 31.50,
+    "imagem": "bonenew.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Touca Infantil",
+    "preco": 24.00,
+    "imagem": "toucainfant.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Meia Masculina Cano Baixo",
+    "preco": 10.00,
+    "imagem": "meiacbmasc.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Meia Masculina Cano Alto",
+    "preco": 11.00,
+    "imagem": "meiacamasc.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Meia Feminina Cano Baixo",
+    "preco": 10.00,
+    "imagem": "meiafemcb.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Meia Feminina Cano Alto",
+    "preco": 11.00,
+    "imagem": "meiafemca.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Meia Infantil Feminina",
+    "preco": 10.00,
+    "imagem": "meiafeminf.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Meia Infantil Masculina",
+    "preco": 10.00,
+    "imagem": "meiamascinf.jpeg",
+    "categoria": "acessorios"
+  },
+  {
+    "nome": "Perfume para Interiores (Flor de algodão) 200ml",
+    "preco": 55.90,
+    "imagem": "avatimalgodao.jpeg",
+    "categoria": "avatim"
+  },
+  {
+    "nome": "Essência para Difusor (Avadore) 210ml",
+    "preco": 68.50,
+    "imagem": "essenciaavadore.jpeg",
+    "categoria": "avatim"
+  },
+  {
+    "nome": "Essência Concentrada (Cascas e Folhas) 30ml",
+    "preco": 47.50,
+    "imagem": "essenciafolhas.jpeg",
+    "categoria": "avatim"
+  },
+  {
+    "nome": "Kit Lavabo Esférico Marrom",
+    "preco": 102.90,
+    "imagem": "lavabomarrom.jpeg",
+    "categoria": "casa-decoracao"
+  },
+  {
+    "nome": "Kit Lavabo Cinza",
+    "preco": 89.90,
+    "imagem": "lavabocinza.jpeg",
+    "categoria": "casa-decoracao"
+  },
+  {
+    "nome": "Conjunto Caneca Gratidão + Pires Coração",
+    "preco": 35.90,
+    "imagem": "canecagratidao.jpeg",
+    "categoria": "casa-decoracao"
+  },
+  {
+    "nome": "Difusor Umidificador Luminária OIH-6610",
+    "preco": 119.90,
+    "imagem": "difluminariaoih.jpeg",
+    "categoria": "difusores"
+  },
+  {
+    "nome": "Difusor Elétrico Amadeirado OHEY DL-512",
+    "preco": 84.90,
+    "imagem": "difamadeirado.jpeg",
+    "categoria": "difusores"
+  },
+  {
+    "nome": "Carrinho Bombeiro Nova Toys",
+    "preco": 38.50,
+    "imagem": "carrinhobomb.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Carrinho Monstro Faster",
+    "preco": 26.50,
+    "imagem": "carrinhomonstro.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Motinha de Trilha Mega Cross Kendy",
+    "preco": 31.50,
+    "imagem": "motinhatrilha.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Balde de Praia Kendy",
+    "preco": 35.00,
+    "imagem": "baldepraia.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Boneca Sereia Mermaid Dressup",
+    "preco": 22.75,
+    "imagem": "bonecasereia.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Carrinho Polícia",
+    "preco": 15.90,
+    "imagem": "carrinhopol.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Bicicleta Bike Miniatura",
+    "preco": 48.00,
+    "imagem": "bikeminiatura.jpeg",
+    "categoria": "brinquedos"
+  },
+  {
+    "nome": "Garrafa Motivação 2000ml",
+    "preco": 17.00,
+    "imagem": "garrafa2000ml.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Garrafa Motivacional 900ml",
+    "preco": 13.90,
+    "imagem": "garrafa900ml.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Garrafa Motivacional 300ml",
+    "preco": 9.95,
+    "imagem": "garrafa300ml.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Garrafa Drink Up 500ml",
+    "preco": 9.90,
+    "imagem": "garrafa500ml.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Copo Térmico Stanley (Verde)",
+    "preco": 35.00,
+    "imagem": "copostanleyverde.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Copo Térmico Stanley (Preto)",
+    "preco": 35.00,
+    "imagem": "copostanleypreto.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Copo Térmico Stanley (Rosa)",
+    "preco": 35.00,
+    "imagem": "copostanleyrosa.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Copo Térmico Stanley c/ Tampa Para Cerveja (Rosa)",
+    "preco": 42.00,
+    "imagem": "copostanleytampa.jpeg",
+    "categoria": "utensilios"
+  }
 ]
-
-
