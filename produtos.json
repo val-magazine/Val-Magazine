@@ -310,5 +310,155 @@
     "preco": 42.00,
     "imagem": "copostanleytampa.jpeg",
     "categoria": "utensilios"
+  },
+  {
+    "nome": "Garrafa Térmica c/ Led Marcador de Temperatura",
+    "preco": 38.90,
+    "imagem": "garrafaled.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Pano de Prato Un",
+    "preco": 3.50,
+    "imagem": "panodeprato.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Coqueteleira Alumínio",
+    "preco": 34.90,
+    "imagem": "coqueteleira.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Balde de Cerveja",
+    "preco": 34.90,
+    "imagem": "baldecerveja.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Pote Hermético Un",
+    "preco": 4.90,
+    "imagem": "potehermetico.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Protetor de Quina",
+    "preco": 10.00,
+    "imagem": "protetorquina.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Kit de Prendedores de Metal",
+    "preco": 9.00,
+    "imagem": "kitprendedor.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Abridor de Latas e Garrafas",
+    "preco": 22.00,
+    "imagem": "abridorlata.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Fouet",
+    "preco": 9.00,
+    "imagem": "fouet.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Taça para Champanhe",
+    "preco": 17.50,
+    "imagem": "tacachamp.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Taça para Vinho",
+    "preco": 21.90,
+    "imagem": "tacavinho.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Taça Transparente para Suco",
+    "preco": 14.00,
+    "imagem": "tacasuco.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Taça Preta para Suco",
+    "preco": 17.00,
+    "imagem": "tacasucopreta.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Copo de Wisky",
+    "preco": 8.90,
+    "imagem": "copowk.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Copo de Cachaça",
+    "preco": 5.25,
+    "imagem": "copocachaca.jpeg",
+    "categoria": "utensilios"
+  },
+  {
+    "nome": "Caneca Time (Palmeiras)",
+    "preco": 39.50,
+    "imagem": "canecapalmeiras.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Time (São Paulo)",
+    "preco": 39.50,
+    "imagem": "canecasp.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Pais N1",
+    "preco": 29.90,
+    "imagem": "canecapaisn1.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Pais N2",
+    "preco": 29.90,
+    "imagem": "canecapaisn2.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Mães N1",
+    "preco": 39.90,
+    "imagem": "canecamaesn1.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Mães N2",
+    "preco": 39.90,
+    "imagem": "canecamaesn2.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Mães N3",
+    "preco": 39.90,
+    "imagem": "canecamaesn3.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Mães N4",
+    "preco": 39.90,
+    "imagem": "canecamaesn4.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Mães N5",
+    "preco": 39.90,
+    "imagem": "canecamaesn5.jpeg",
+    "categoria": "canecas"
+  },
+  {
+    "nome": "Caneca Namorados N1",
+    "preco": 29.90,
+    "imagem": "canecanamoradosn1.jpeg",
+    "categoria": "canecas"
   }
 ]
